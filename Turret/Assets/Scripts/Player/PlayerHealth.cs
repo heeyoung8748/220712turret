@@ -9,7 +9,6 @@ public class PlayerHealth : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    // 피격 입장
     private void OnTriggerEnter(Collider other)
     {
         

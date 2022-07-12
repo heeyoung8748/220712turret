@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour
     public float bulletSpeed = 0.05f;
     void Start()
     {
-        Destroy(gameObject, 30f);
+        Destroy(gameObject, 3f);
     }
 
     void Update()
